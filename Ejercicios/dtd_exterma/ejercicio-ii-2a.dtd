@@ -8,3 +8,5 @@
 <!ELEMENT direccion (#PCDATA)>
 <!ELEMENT DUI (#PCDATA)>
 <!ELEMENT pais (#PCDATA)>
+<!ELEMENT departamento (#PCDATA)>
+<!ELEMENT moneda (#PCDATA)>
