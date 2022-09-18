@@ -9,5 +9,7 @@
   <apellido>Fernandez</apellido>
   <direccion>c/Ulises, 36</direccion>
   <pais>El Salvador</pais>
+  <departamento>San Salvador</departamento>
+  <moneda>Dolar estadounidense</moneda>
  </ficha>
 </fichero>
