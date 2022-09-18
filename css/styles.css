@@ -1,0 +1,103 @@
+:root{
+    --fondo: #1C1F20;
+    --fondo-oscuro: #181A1B;
+    --negro: #000;
+    --blanco: #fff;
+    --enlace: #32a3f6;
+    --verde: #0f3229;
+    --gris: #aba499;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = 10px */
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+*{color: var(--blanco);}
+
+body{    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+    background-color: var(--fondo-oscuro);
+}
+
+h1{font-size: 4rem;}
+
+h2{font-size: 3rem;}
+
+h3{font-size: 2rem;}
+
+ul, li{list-style: none;}
+
+ul{padding: 0;}
+
+a{text-decoration: none;
+display: block;}
+
+.centrar{margin: 0 auto;}
+
+.centrar-texto{text-align: center;}
+
+.max-width{max-width: 100rem;}
+
+.contenedor-principal{
+    background-color: var(--fondo);
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+    margin: 5rem auto;
+    border-radius: 5%;
+}
+
+.integrantes{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+
+.integrantes__listado{
+/*UWU*/
+}
+
+.integrantes__listado--coordinador{
+    font-weight: bold;
+}
+
+.ejercicios{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+}
+
+.ejercicios__listado{
+    /* UWU */
+}
+
+
+.btn-enlace{
+    display: block;
+    margin-top: .5rem;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.btn-enlace:hover{
+    background: linear-gradient(90deg, var(--fondo) 0%, var(--negro) 50%, var(--fondo) 100%);
+    transform: scale(1.1);
+}
+/* .btn-ejercicio{
+    background-color: var(--verde);
+    padding: 3rem;
+    border-radius: 25%;
+    transition: transform .2s;
+}
+
+.btn-ejercicio:hover{
+    transform: scale(1.15);
+} */
