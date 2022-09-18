@@ -1,4 +1,27 @@
-﻿* {display:block;}
-nombre[sexo]::before {content: " (Genero " attr(sexo) " ) ";color:blue;font-size:3mm;}
-nombre[sexo]::after {content: " sexo: " attr(sexo);color:red;}
-
+ficha,apellido,nombre,direccion,altura,pais,departamento,moneda{
+   max-width: 1000px;
+    margin: 10px auto;
+    padding: 20px;
+    display:block;
+    gap: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border: 3px;
+    background:#04323B;
+    color:white; 
+}
+fichero{
+    max-width: 1000px;
+    margin: 10px auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("https://img.lovepik.com/photo/50065/4658.jpg_wh860.jpg");
+    opacity: 0.85;
+    no-repeat center fixed;
+   background-size: cover;
+}
+ficha{
+background-image: url("paper.gif");
+background-color: #cccccc;
+filter: grayscale(100%);
+}
