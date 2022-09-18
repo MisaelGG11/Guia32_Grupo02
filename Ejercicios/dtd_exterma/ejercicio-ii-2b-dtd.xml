@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- ejemplodtd1.xml -->
 
-<?xml-stylesheet type="text/css" href="ejercicio-ii-1b-dtd.css"?>
+<?xml-stylesheet href="css/Style.css"?>
 <!DOCTYPE fichero SYSTEM "ejercicio-ii-2b.dtd">
 <fichero>
  <ficha>
