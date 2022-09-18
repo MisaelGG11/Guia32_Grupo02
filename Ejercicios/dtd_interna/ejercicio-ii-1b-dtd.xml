@@ -4,7 +4,7 @@
 
 <!DOCTYPE fichero [
 		<!ELEMENT fichero (ficha+)>
-		<!ELEMENT ficha (nombre, apellido, direccion*, DUI?,pais,fechaNacimiento, nit, estadoCivil+)>
+		<!ELEMENT ficha (nombre, apellido, direccion*, DUI?,pais,fechaNacimiento, nit, estadoCivil?)>
 		<!ELEMENT nombre (#PCDATA)>
 		<!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
             	<!ATTLIST nombre edad  CDATA  #IMPLIED>
