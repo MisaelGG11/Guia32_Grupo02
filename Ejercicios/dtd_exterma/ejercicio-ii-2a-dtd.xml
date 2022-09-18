@@ -10,5 +10,7 @@
   <direccion>c/Ulises, 36</direccion>
   <pais>El Salvador</pais>
   <altura>1.72</altura>
+  <departamento>San Salvador</departamento>
+  <moneda>Dolar estadounidense</moneda>
  </ficha>
 </fichero>
