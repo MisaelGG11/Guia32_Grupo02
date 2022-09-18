@@ -9,3 +9,5 @@
 <!ELEMENT DUI (#PCDATA)>
 <!ELEMENT pais (#PCDATA)>
 <!ELEMENT fechaNacimiento (#PCDATA)>
+<!ELEMENT nacionalidad (#PCDATA)>
+<!ELEMENT continente (#PCDATA)>
