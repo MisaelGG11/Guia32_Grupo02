@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="ejercicio-ii-1c-dtd.css"?>
+<?xml-stylesheet href="css/Style.css"?>
 <!-- ejemplodtd1.xml -->
 
 <!DOCTYPE fichero SYSTEM "ejercicio-ii-2c.dtd">
