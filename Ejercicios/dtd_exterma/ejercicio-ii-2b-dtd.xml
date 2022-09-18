@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- ejemplodtd1.xml -->
+
+<?xml-stylesheet type="text/css" href="ejercicio-ii-1b-dtd.css"?>
+<!DOCTYPE fichero SYSTEM "ejercicio-ii-2b.dtd">
+<fichero>
+ <ficha>
+  <nombre sexo="femenino" edad="17">Angelina</nombre>
+  <apellido>Fernandez</apellido>
+  <direccion>c/Ulises, 36</direccion>
+  <pais>El Salvador</pais>
+  <fechaNacimiento>14/06/1996</fechaNacimiento>
+ </ficha>
+</fichero>
