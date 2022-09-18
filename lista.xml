@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl/lista.xsl" ?>
+<!DOCTYPE lista SYSTEM "dtd_xml/lista.dtd">
+<lista>
+  <item id="1" titulo="Arroz Natural" precio="1.25" categoria="Granos">
+    <titulo>Arroz Natural</titulo>
+    <categoria id="1" nombre="Granos" recurso="recursos/categorias/categoria_1.png">Granos</categoria>
+    <producto recurso="recursos/productos/arroz_00.jpg"></producto>
+    <descripcion>Libra de arroz natural, distribidora local</descripcion>
+    <unidades>3</unidades>
+    <precio>1.25</precio>
+    <marca>Distribuidora local</marca>
+    <costo>3.75</costo>
+  </item>
+  <item id="2" titulo="Lomó de Cerdo" precio="3.99" categoria="Carnes">
+    <titulo>Lomó de Cerdo</titulo>
+    <categoria id="3" nombre="Carnes" recurso="recursos/categorias/categoria_3.png">Carnes</categoria>
+    <producto recurso="recursos/productos/lomo_cerdo_00.jpg"></producto>
+    <descripcion>Pieza de lomó de cerdo marca Matador</descripcion>
+    <unidades>1</unidades>
+    <precio>3.99</precio>
+    <marca>Matador</marca>
+    <costo>3.99</costo>
+  </item>
+  <item id="3" titulo="Atún Enlatado" precio="1.75" categoria="Enlatados">
+    <titulo>Atún Enlatado</titulo>
+    <categoria id="0" nombre="Enlatados" recurso="recursos/categorias/categoria_0.png">Enlatados</categoria>
+    <producto recurso="recursos/productos/atun_enlatado_00.jpg"></producto>
+    <descripcion>Atun en agua enlatado, marca Calvo, 140g la unidad</descripcion>
+    <unidades>3</unidades>
+    <precio>1.75</precio>
+    <marca>Calvo</marca>
+    <costo>5.25</costo>
+  </item>
+  <item id="4" titulo="Cartón de Leche" precio="1.50" categoria="Lacteos">
+    <titulo>Cartón de Leche</titulo>
+    <categoria id="2" nombre="Lacteos" recurso="recursos/categorias/categoria_2.png">Lacteos</categoria>
+    <producto recurso="recursos/productos/carton_leche_00.jpg"></producto>
+    <descripcion>Cartón de leche de un litro marca Milk Mu</descripcion>
+    <unidades>2</unidades>
+    <precio>1.50</precio>
+    <marca>Milk-Mu</marca>
+    <costo>3.00</costo>
+  </item>
+  <total>15.99</total>
+  <cantidad_total>9</cantidad_total>
+</lista>
