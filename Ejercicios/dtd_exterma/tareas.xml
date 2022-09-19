@@ -49,5 +49,5 @@
         <integrante2 carnet="MJ18018" sexo="f">Daysi Yamileth Matinez Jurado</integrante2>
         <integrante3 carnet="RC20038" sexo="f">Ana Julia Rivera Cortez</integrante3>
     </equipo>
-    <a xmlns="http://www.w3.org/1999/xhtml" href="../../index.html" target="_self">Regresar</a>
+    <a class="boton" xmlns="http://www.w3.org/1999/xhtml" href="../../index.html" target="_self">Regresar</a>
 </equipos>
