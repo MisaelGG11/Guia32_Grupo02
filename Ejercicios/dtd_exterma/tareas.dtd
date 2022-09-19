@@ -1,0 +1,47 @@
+<!-- tareas.dtd -->
+<!ELEMENT equipos (equipo+, a?)>
+	<!ATTLIST equipos universidad CDATA #FIXED "Universidad de El Salvador">
+<!ELEMENT equipo (facultad,(gt|gl|gd), actividad, profesor, coordinador, integrante1, integrante2, integrante3, )>
+	<!ATTLIST equipo 
+		n-grupo CDATA #REQUIRED
+		tema CDATA #REQUIRED>
+<!ELEMENT facultad (carrera)>
+	<!ATTLIST facultad 
+		codigo CDATA #REQUIRED
+		nombre CDATA #REQUIRED>
+<!ELEMENT carrera (materia)>
+	<!ATTLIST carrera 
+		codigo CDATA #REQUIRED
+		nombre CDATA #REQUIRED>
+<!ELEMENT materia (#PCDATA)>
+	<!ATTLIST materia 
+		codigo CDATA #REQUIRED>
+<!ELEMENT gt (#PCDATA)>
+<!ELEMENT gl (#PCDATA)>
+<!ELEMENT gd (#PCDATA)>
+<!ELEMENT actividad (#PCDATA)>
+	<!ATTLIST actividad 
+		porcentaje CDATA #REQUIRED>
+<!ELEMENT profesor (#PCDATA)>
+<!ELEMENT coordinador (#PCDATA)>
+	<!ATTLIST coordinador 
+		carnet CDATA #REQUIRED
+		sexo (m|f) "m">
+<!ELEMENT integrante1 (#PCDATA)>
+	<!ATTLIST integrante1 
+		carnet CDATA #REQUIRED
+		sexo (m|f) "m">
+<!ELEMENT integrante2 (#PCDATA)>
+	<!ATTLIST integrante2 carnet CDATA #REQUIRED
+		sexo (m|f) "m">
+<!ELEMENT integrante3 (#PCDATA)>
+	<!ATTLIST integrante3 
+		carnet CDATA #REQUIRED
+		sexo (m|f) "m">
+
+
+<!ELEMENT a (#PCDATA) >
+	<!ATTLIST a  
+		href CDATA #IMPLIED
+		xmlns CDATA #IMPLIED 
+		target (_blank|_self|marco) "_blank">

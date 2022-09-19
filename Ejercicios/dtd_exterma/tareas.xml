@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="tareas.css" ?>
+<!-- tarea.xml -->
+<!DOCTYPE equipos SYSTEM "tareas.dtd">
+<equipos universidad="Universidad de El Salvador">
+    <equipo n-grupo="01" tema="Creacion de un sitio web dinamico">
+        <facultad codigo="FIA" nombre="Facultad de Ingenieria y Arquitectura">
+            <carrera codigo="I10515" nombre="Ingeniería en Sistemas informaticos">
+                <materia codigo="TPI115">Técnicas de Programación Para Internet</materia>
+            </carrera>
+        </facultad>
+        <gt>07</gt>
+        <actividad porcentaje="35%">Proyecto de aplicación</actividad>
+        <profesor>Ing. Balmore Ortiz</profesor>
+        <coordinador carnet="GG20031" sexo="m">Misael Antonio Gómez García</coordinador>
+        <integrante1 carnet="FM19038" sexo="m">Fabio Ernesto Flores Mendoza</integrante1>
+        <integrante2 carnet="GR19001" sexo="m">Emerson Alexander González Rodríguez</integrante2>
+        <integrante3 carnet="PN19017" sexo="f">Juana María Peña Nieto</integrante3>
+    </equipo>
+    <equipo n-grupo="02" tema="Creacion de un sumador/restador utilizando sumadores y multiplicadores">
+        <facultad codigo="FIA" nombre="Facultad de Ingenieria y Arquitectura">
+            <carrera codigo="I10715" nombre="Ingeniería Electrica">
+                <materia codigo="SDU115">Sistema Digitales I</materia>
+            </carrera>
+        </facultad>
+        <gd>02</gd>
+        <actividad porcentaje="15%">Tarea de investigacion</actividad>
+        <profesor>Ing. Nelson Amilcar</profesor>
+        <coordinador carnet="GM20037" sexo="m">Yasser Juvenal Gallador Martínez</coordinador>
+        <integrante1 carnet="GE19020" sexo="m">Juan Manuel Gutierrez Escobar</integrante1>
+        <integrante2 carnet="LM18005" sexo="f">Maria Luiza Lopez Mendoza</integrante2>
+        <integrante3 carnet="FG19007" sexo="f">Marcela Tatina Franco Gomez</integrante3>
+    </equipo>
+    <equipo n-grupo="03" tema="Proyecto de principio de Arquimídes">
+        <facultad codigo="FIA" nombre="Facultad de Ingenieria y Arquitectura">
+            <carrera codigo="I10415" nombre="Ingeniería Mecánica">
+                <materia codigo="FIR215">Física II</materia>
+            </carrera>
+        </facultad>
+        <gl>05</gl>
+        <actividad porcentaje="20%">Reporte de proyecto</actividad>
+        <profesor>Ing. Mario Martinez</profesor>
+        <coordinador carnet="ML19039" sexo="m">Jeffry Alexander Mejía López</coordinador>
+        <integrante1 carnet="HS19007" sexo="f">Norma Noemi Hernandez Sanchez</integrante1>
+        <integrante2 carnet="MJ18018" sexo="f">Daysi Yamileth Matinez Jurado</integrante2>
+        <integrante3 carnet="RC20038" sexo="f">Ana Julia Rivera Cortez</integrante3>
+    </equipo>
+    <a xmlns="http://www.w3.org/1999/xhtml" href="../../index.html" target="_self">Regresar</a>
+</equipos>
