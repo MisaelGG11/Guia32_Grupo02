@@ -1,8 +1,9 @@
 <<<<<<< HEAD
-﻿x<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 =======
-<?xml version="1.0" encoding="UTF-8"?>
 >>>>>>> c77cf04e486e3236cc24239505d1be12fc3d5a1c
+<?xml version="1.0" encoding="UTF-8"?>
+
 <?xml-stylesheet href="estilo.css"?>
 <!DOCTYPE fichero SYSTEM "fichero.dtd">
 
@@ -13,5 +14,6 @@
   </nombre>
   <apellido>Barbero</apellido>
   <direccion>c/Ulises, 36</direccion>
+  <a xmlns="http://www.w3.org/1999/xhtml" href="../../index.html" target="_self">Regresar</a>
  </ficha>
 </fichero>
