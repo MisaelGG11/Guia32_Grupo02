@@ -1,6 +1,6 @@
 <!-- Ejercicio ii 2b-->
 <!ELEMENT fichero (ficha+)>
-<!ELEMENT ficha (nombre, apellido, direccion*, DUI?,pais,fechaNacimiento,nacionalidad,continente)>
+<!ELEMENT ficha (nombre, apellido, direccion*, DUI?,pais,fechaNacimiento, peso, nacionalidad, continente)>
 <!ELEMENT nombre (#PCDATA)>
 <!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
     	<!ATTLIST nombre edad  CDATA  #IMPLIED>
@@ -9,5 +9,6 @@
 <!ELEMENT DUI (#PCDATA)>
 <!ELEMENT pais (#PCDATA)>
 <!ELEMENT fechaNacimiento (#PCDATA)>
+<!ELEMENT peso (#PCDATA)>
 <!ELEMENT nacionalidad (#PCDATA)>
 <!ELEMENT continente (#PCDATA)>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mensaje SYSTEM "archivo.dtd">
+
+<mensaje>
+  <!-- contenido del documento , esto es un comentario-->
+  <titulo>Documento XML Válido</titulo>
+  <texto>Documento XML que cumple reglas de escritura y además cumple la definición de tipo de documento DTD.</texto>
+</mensaje>

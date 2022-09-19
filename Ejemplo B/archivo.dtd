@@ -1,0 +1,3 @@
+<!ELEMENT mensaje (titulo,texto)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT texto (#PCDATA)>

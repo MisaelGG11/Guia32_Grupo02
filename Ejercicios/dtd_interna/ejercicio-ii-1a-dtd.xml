@@ -4,7 +4,7 @@
 
 <!DOCTYPE fichero [
 		<!ELEMENT fichero (ficha+)>
-		<!ELEMENT ficha (nombre, apellido, direccion*, DUI?,pais)>
+		<!ELEMENT ficha (nombre, apellido, direccion*, DUI?, pais, nup?)>
 		<!ELEMENT nombre (#PCDATA)>
 		<!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
             	<!ATTLIST nombre edad  CDATA  #IMPLIED>
@@ -12,6 +12,7 @@
 		<!ELEMENT direccion (#PCDATA)>
 		<!ELEMENT DUI (#PCDATA)>
 		<!ELEMENT pais (#PCDATA)>
+		<!ELEMENT nup (#PCDATA)>
 		]>
 <fichero>
  <ficha>
@@ -20,5 +21,6 @@
   <direccion>c/Ulises, 36</direccion>
   <DUI>123456789</DUI>
   <pais>El Salvador</pais>
+  <nup>0205060408</nup>
  </ficha>
 </fichero>
