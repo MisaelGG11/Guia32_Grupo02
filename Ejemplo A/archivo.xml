@@ -9,6 +9,4 @@
   <!-- contenido del documento , esto es un comentariio-->
   <titulo>Documento XML Válido</titulo>
   <texto>Documento XML que cumple reglas de escritura y además cumple la definición de tipo de documento DTD.</texto>
-  <a xmlns="http://www.w3.org/1999/xhtml" href="../index.html" target="_self">Regresar</a>
 </mensaje>
-
