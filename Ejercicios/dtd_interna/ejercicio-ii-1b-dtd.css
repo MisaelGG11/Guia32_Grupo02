@@ -1,4 +1,4 @@
-ficha,apellido,nombre,direccion,altura,pais,departamento,moneda{
+ficha,apellido,nombre,direccion,altura,pais,departamento,moneda,estadoCivil,nit,fechaNacimiento{
    max-width: 1000px;
     margin: 10px auto;
     padding: 20px;
