@@ -17,6 +17,9 @@
           <h1>LISTA DE SUPERMERCADO</h1>
           <h2> CANTIDAD DE ELEMENTOS: <xsl:value-of select="lista/cantidad_total"/> ELEMENTOS</h2>
           <h2>COSTO TOTAL: $<xsl:value-of select="lista/total"/></h2>
+          <div class="boton">
+            <a href="../index.html">REGRESAR</a>
+          </div>
         </div>
       </nav>
       <div class="container">

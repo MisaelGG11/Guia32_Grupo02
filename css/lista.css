@@ -120,3 +120,28 @@ p {
     color: beige;
     text-align: center;
 }
+
+.boton {
+    display: flex;
+    height: 50px;
+    width: 100px;
+    background-color: crimson;
+    border-radius: 10px;
+    border: solid 1px salmon;
+}
+
+.boton a {
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: aliceblue;
+    padding: 15px 10px 15px 10px;
+}
+
+.boton a:hover {
+    background-color: lightcoral;
+    border-radius: 10px;
+}
