@@ -11,7 +11,7 @@ equipos {
 
 equipo {
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-        color: #ffffff;
+    color: #ffffff;
         font-size: 18px;
         font-weight: 400;
         text-align: center;
@@ -92,6 +92,7 @@ materia {
 materia::before {
     content: "Materia: ";
 }
+
 .boton {
     padding: 4px 25px;
     background: rgb(19, 143, 247);
