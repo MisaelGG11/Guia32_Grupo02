@@ -1,4 +1,4 @@
-ficha,apellido,nombre,direccion,altura,pais,departamento,moneda{
+ficha,apellido,nombre,direccion,altura,pais,departamento,moneda,estadoCivil,nit,fechaNacimiento{
    max-width: 1000px;
     margin: 10px auto;
     padding: 20px;
@@ -24,4 +24,16 @@ ficha{
 background-image: url("paper.gif");
 background-color: #cccccc;
 filter: grayscale(100%);
+}
+a{
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: aliceblue;
+    padding: 15px 10px 15px 10px;
+    background-color: lightcoral;
+    border-radius: 10px;
 }
