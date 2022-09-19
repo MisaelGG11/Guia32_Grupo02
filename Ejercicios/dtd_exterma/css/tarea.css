@@ -1,0 +1,84 @@
+equipos {
+    background: cadetblue;
+    height: 1500px;
+    width: 1500px;
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+equipo {
+    width: 300px;
+    height: 150px;
+    margin: 10px;
+}
+
+p {
+    font-weight: bold;
+}
+
+gt::before {
+    content: "GT ";
+}
+
+gd::before {
+    content: "GD ";
+}
+
+gl::before {
+    content: "GL ";
+}
+
+coordinador::after {
+    content: " (Coordinador) ";
+}
+
+actividad {
+    display: list-item;
+
+}
+
+actividad::before {
+    content: "Actividad: ";
+}
+
+profesor {
+    display: list-item;
+}
+
+profesor::before {
+    content: "Encargado: ";
+}
+
+
+coordinador {
+    color: brown;
+    font-weight: bold;
+    font-size: large;
+    display: inline;
+    margin-right: 10px;
+    display: list-item;
+}
+
+integrante1 {
+    display: list-item;
+}
+
+integrante2 {
+    display: list-item;
+}
+
+integrante3 {
+    display: list-item;
+}
+
+materia {
+    font-weight: bold;
+
+}
+
+materia::before {
+    content: "Materia: ";
+}

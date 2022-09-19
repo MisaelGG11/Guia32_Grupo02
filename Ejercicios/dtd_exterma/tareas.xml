@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="tareas.css" ?>
+<?xml-stylesheet type="text/css" href="./css/tarea.css" ?>
 <!-- tarea.xml -->
 <!DOCTYPE equipos SYSTEM "tareas.dtd">
 <equipos universidad="Universidad de El Salvador">
@@ -12,6 +12,8 @@
         <gt>07</gt>
         <actividad porcentaje="35%">Proyecto de aplicación</actividad>
         <profesor>Ing. Balmore Ortiz</profesor>
+       
+        <p>Integrantes: </p>
         <coordinador carnet="GG20031" sexo="m">Misael Antonio Gómez García</coordinador>
         <integrante1 carnet="FM19038" sexo="m">Fabio Ernesto Flores Mendoza</integrante1>
         <integrante2 carnet="GR19001" sexo="m">Emerson Alexander González Rodríguez</integrante2>
@@ -26,6 +28,7 @@
         <gd>02</gd>
         <actividad porcentaje="15%">Tarea de investigacion</actividad>
         <profesor>Ing. Nelson Amilcar</profesor>
+        <p>Integrantes:</p>
         <coordinador carnet="GM20037" sexo="m">Yasser Juvenal Gallador Martínez</coordinador>
         <integrante1 carnet="GE19020" sexo="m">Juan Manuel Gutierrez Escobar</integrante1>
         <integrante2 carnet="LM18005" sexo="f">Maria Luiza Lopez Mendoza</integrante2>
@@ -40,6 +43,7 @@
         <gl>05</gl>
         <actividad porcentaje="20%">Reporte de proyecto</actividad>
         <profesor>Ing. Mario Martinez</profesor>
+        <p>Integrantes: </p>
         <coordinador carnet="ML19039" sexo="m">Jeffry Alexander Mejía López</coordinador>
         <integrante1 carnet="HS19007" sexo="f">Norma Noemi Hernandez Sanchez</integrante1>
         <integrante2 carnet="MJ18018" sexo="f">Daysi Yamileth Matinez Jurado</integrante2>
